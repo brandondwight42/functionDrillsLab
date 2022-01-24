@@ -16,7 +16,7 @@ function helloWorld(){
   console.log('Hello, World!')
 }
 
-helloWorld()
+//helloWorld()
 
 ////////////////// PROBLEM 2 ////////////////////
 
@@ -30,7 +30,7 @@ const jsNinja = () => {
   
 }
 
-console.log(jsNinja())
+//console.log(jsNinja())
 
 ////////////////// PROBLEM 3 ////////////////////
 /*
@@ -40,6 +40,12 @@ console.log(jsNinja())
 */
 
 //CODE HERE
+function printName(name){
+  name = 'Cameron'
+  console.log(name)
+}
+
+printName()
 
 
 ////////////////// PROBLEM 4 ////////////////////
