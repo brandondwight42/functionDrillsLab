@@ -45,7 +45,7 @@ function printName(name){
   console.log(name)
 }
 
-printName()
+//printName()
 
 
 ////////////////// PROBLEM 4 ////////////////////
@@ -60,7 +60,12 @@ printName()
 */
 
 //CODE HERE
+function greeting(name){
+  name = 'Jake'
+  return `Hello, ${name}`
+}
 
+console.log(greeting())
 
 ////////////////// PROBLEM 5 ////////////////////
 
