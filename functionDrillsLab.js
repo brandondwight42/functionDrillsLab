@@ -65,7 +65,7 @@ function greeting(name){
   return `Hello, ${name}`
 }
 
-console.log(greeting())
+//console.log(greeting())
 
 ////////////////// PROBLEM 5 ////////////////////
 
@@ -79,6 +79,24 @@ console.log(greeting())
 */
 
 //CODE HERE
+const compareNums = (num1, num2) => {
+  num1 = 4
+  num2 = 2
+
+  if(num1 > num2){
+    return num1
+  }
+  else if(num1 === num2){
+    return num1
+  }
+  else{
+    return num2
+  }
+}
+
+console.log(compareNums())
+
+
 
 
 ////////////////// PROBLEM 6 ////////////////////
