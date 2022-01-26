@@ -79,22 +79,22 @@ function greeting(name){
 */
 
 //CODE HERE
-const compareNums = (num1, num2) => {
-  num1 = 4
-  num2 = 2
+// const compareNums = (num1, num2) => {
+//   num1 = 4
+//   num2 = 2
 
-  if(num1 > num2){
-    return num1
-  }
-  else if(num1 === num2){
-    return num1
-  }
-  else{
-    return num2
-  }
-}
+//   if(num1 > num2){
+//     return num1
+//   }
+//   else if(num1 === num2){
+//     return num1
+//   }
+//   else{
+//     return num2
+//   }
+// }
 
-console.log(compareNums())
+//console.log(compareNums())
 
 
 
@@ -108,6 +108,21 @@ console.log(compareNums())
 */
 
 //CODE HERE
+num1 = `42ft`
+num2 = `90ft`
+
+
+function add(num1, num2){
+  num1 = +num1
+  num2 = +num2
+
+  return num1 + num2
+
+}
+
+let sum = add(3, 5)
+console.log(sum)
+
 
 
 ////////////////// PROBLEM 7 ////////////////////
@@ -122,8 +137,8 @@ const exclaim = function(str) {
 }
 
 // arrow
-// declaration
-// expression
+//declaration
+// expression---answer
 
 
 
@@ -138,7 +153,7 @@ const exclaimTwo = str => {
   return str.toUpperCase() + '!!!'
 }
 
-// arrow
+//arrow---answer
 // declaration
 // expression
 
@@ -148,6 +163,9 @@ const exclaimTwo = str => {
 
   Brownie points if you use a template string
 */
+
+const exclaimThree = str => `${str.toUpperCase()}!!!`
+
 
 
 
@@ -163,8 +181,10 @@ function exclaimFour(str) {
 }
 
 // arrow
-// declaration
+// declaration---answer
 // expression
+
+
 
 
 ////////////////// PROBLEM 10 ////////////////////
@@ -177,6 +197,23 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
+function nameCheck(nameParam){
+
+if(nameParam === 'Steven'){
+  return 'What is up Steven?'
+}
+else if(nameParam === 'Bryan'){
+  return 'Hey Bryan!'
+}
+else{
+  return `Cool name, ` + nameParam
+}
+
+}
+
+let nameGreeting = nameCheck('Bryan')
+
+console.log(nameGreeting)
 
 
 ////////////////// PROBLEM 11 ////////////////////
@@ -190,6 +227,7 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
+
 
 
 ////////////////// PROBLEM 12 ////////////////////
@@ -298,6 +336,22 @@ let sampleArray = [0,1,2,3,4,7,5,6,8,9]
 
 //CODE HERE
 
+function arrayChecker(arr){
+  let compare = arr[0]
+
+  for(let i = 1; i <= arr.length; i++){
+    if(arr[i] <= compare){
+      return false
+    }
+    else{
+      compare = arr[i]
+    }
+  }
+  return true
+}
+let arrayIsAscending = arrayChecker(sampleArray)
+
+console.log(arrayIsAscending)
 
 ////////////////// PROBLEM 22 ////////////////////
 
