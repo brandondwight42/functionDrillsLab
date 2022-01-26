@@ -108,9 +108,6 @@ function greeting(name){
 */
 
 //CODE HERE
-num1 = `42ft`
-num2 = `90ft`
-
 
 function add(num1, num2){
   num1 = +num1
@@ -298,7 +295,11 @@ console.log(oddChecker)
 */
 
 //CODE HERE
+let str = 'Sandlot'
 
+const bestMovie = str => `${str} is the best movie ever!`
+
+console.log(bestMovie(str))
 
 ////////////////// PROBLEM 15 ////////////////////
 let bigOrSmallArray = [1,101, 102, 2, 103, 4, 5, 6, 107]
