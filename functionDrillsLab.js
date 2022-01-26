@@ -270,6 +270,21 @@ printAllNames(namesArr)
 */
 
 //CODE HERE
+function thatsOdd(){
+  if(num % 2 === 0){
+    return `That's not odd!`
+  }
+  else{
+    return `That is odd indeed!`
+  }
+}
+
+let num = 3
+
+let oddChecker = thatsOdd(num)
+
+console.log(oddChecker)
+
 
 
 ////////////////// PROBLEM 14 ////////////////////
